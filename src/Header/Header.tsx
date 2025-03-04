@@ -13,7 +13,8 @@ function Header() {
       <nav>
         <div className="nav-container">
           <a href="#" className="nav-name">David Nguyen</a>
-          <ul className="nav-list">
+          <div className="hamburger" onClick={toggleMenu}>☰</div>
+          <ul className={`nav-list ${open ? "open" : ""}`}>
             <li><a href="#about">About</a></li>
             <li><a href="#experiences">Experiences</a></li>
             <li><a href="#projects">Projects</a></li>
