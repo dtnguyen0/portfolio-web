@@ -7,7 +7,7 @@ function Profile() {
   return(
     <div className="profile">
       <div className="profile-text">
-        <p >Hi, my name is</p>
+        <p>Hi, my name is</p>
         <h1>David Nguyen</h1>
         <p>
           I am studying Computer Science and Mathematics <br /> 
