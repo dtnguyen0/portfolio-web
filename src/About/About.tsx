@@ -24,6 +24,7 @@ function About(){
             <Coursecard title="EECS 280" name="C++ Programming and Data Structures" />
             <Coursecard title="EECS 270" name="Logic Design" />
             <Coursecard title="EECS 203" name="Discrete Math" />
+            <Coursecard title="MATH 472" name="Numerical Methods with Financial Applications" />
             <Coursecard title="MATH 425" name="Probability" />
             <Coursecard title="MATH 215" name="Vector and Multivariable Calculus"  />
             <Coursecard title="MATH 214" name="Linear Algebra" />
