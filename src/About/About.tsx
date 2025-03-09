@@ -11,7 +11,7 @@ function About(){
         <div className="about-text">
           <p>I am passionate programmer with interests in AI, Machine Learning, Computer Hardware, Software Development, and Cloud Computing, I want to turn ideas into reality with software solutions that are applicable in any situation.</p>
           <p>My experience spans from full-stack development, cloud computing, and data science technologies and languages such as C++, React.js, Python, and AWS.</p>
-          <p>Outside of everything technical, I've acquired many skills and a variety of interests. I've had the privilege of cutting hair for over 25 students—a skill I picked up as a way to connect with others. I also enjoy listening and discovering new music (with my main playlist has over 1,400 songs!), investing, staying active through workouts, experiencing different cultures, and playing/watching sports.</p>
+          <p>Outside of everything technical, I've acquired many skills and a variety of interests. I've had the privilege of cutting hair for over 25 students—a skill I picked up as a way to connect with others. I also enjoy listening and discovering new music (with my main playlist has over 1,400 songs!), investing, staying active through workouts, and experiencing different cultures.</p>
         </div>
         <div className="div-bar"></div>
         <div className="education-container">
