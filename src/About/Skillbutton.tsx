@@ -3,7 +3,7 @@ import "./skillbutton.css"
 import Tooltip from "./Tooltip.tsx"
 
 interface SkillProps {
-  l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string;
+  l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string; l9: string;
   t1: string; t2: string; t3: string; t4: string; t5: string; t6: string; t7: string; t8: string; t9: string; t10: string; t11: string;
   c1: string; c2: string; c3: string;
 }
@@ -26,6 +26,7 @@ function Skill(tool: SkillProps) {
         {skillOption === "languages" && (
           <>
             <Tooltip title="C++"><img src={tool.l1} /></Tooltip>
+            <Tooltip title="C"><img src={tool.l9} /></Tooltip>
             <Tooltip title="Python"><img src={tool.l2} /></Tooltip>
             <Tooltip title="HTML"><img src={tool.l3}/></Tooltip>
             <Tooltip title="CSS"><img src={tool.l4}/></Tooltip>
