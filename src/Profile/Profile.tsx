@@ -13,7 +13,7 @@ function Profile() {
           I am studying Computer Science and Mathematics <br /> 
           at the University of Michigan!
         </p>
-        <p>Feel free to reach out! <b><u>davidt.nguyen05@gmail.com</u></b></p>
+        <p>Feel free to reach out! <b><u>davidtn@umich.com</u></b></p>
         <div className="profile-icons">
           <a className="profile-linkedin" href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a className="profile-github" href="https://github.com/dtnguyen0/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>

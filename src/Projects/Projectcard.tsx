@@ -6,7 +6,7 @@ interface ProjectProps {
   url: string;
   summary: string;
   showGitHub: boolean;
-  img1: string; img2: string; img3: string; img4: string;
+  img1: string; img2: string; img3: string; img4: string; img5: string; img6: string;
 }
 
 function Projectcard(project: ProjectProps) {
@@ -16,7 +16,7 @@ function Projectcard(project: ProjectProps) {
         <h3 className="project-name"><b>{project.name}</b></h3>
         {project.showGitHub && <a href={project.url} className="project-link" target="_blank" rel="noopener noreferrer"><FaGithub /></a>}
       </div>
-      <img src={project.img1}></img><img src={project.img2}></img><img src={project.img3}></img><img src={project.img4}></img>
+      <img src={project.img1}></img><img src={project.img2}></img><img src={project.img3}></img><img src={project.img4}></img><img src={project.img5}></img><img src={project.img6}></img>
       <p className="project-summary">{project.summary}</p>
     </div>
   );

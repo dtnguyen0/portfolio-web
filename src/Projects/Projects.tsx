@@ -7,9 +7,15 @@ function Projects() {
       <div className="project-container">
         <h2>Projects</h2>
           <div className="project-cards">
-            <Projectcard showGitHub={false} name="Spotify Analysis" img1="images/pythonicon.png" img2="images/pandasicon.png" img3="images/numpyicon.png" img4="images/matplotlibicon.png" url="https://github.com/dtnguyen0/"
+            {/* <Projectcard showGitHub={true} name="Trading Bot" img1="images/cppicon.png" img2="images/cison.png" img3="images/reactjsicon.webp" img4="images/tsicon.png" img5="images/tailwindcssicon.png" img6="images/pythonicon.png" url="https://github.com/Ineed-io/web"
+              summary="A competitive internship tracker for users ongoning applications and statistices with a leaderboard that ranks users by the amount of internships applied." />
+            <Projectcard showGitHub={true} name="Ineedio" img1="images/reactjsicon.webp" img2="images/tsicon.png" img3="images/tailwindcssicon.png" img4="images/supabaseicon.png" img5="" img6="" url="https://github.com/Ineed-io/web"
+              summary="A competitive internship tracker for users ongoning applications and statistices with a leaderboard that ranks users by the amount of internships applied." /> */}
+            <Projectcard showGitHub={true} name="Ineedio" img1="images/reactjsicon.webp" img2="images/tsicon.png" img3="images/tailwindcssicon.png" img4="images/supabaseicon.png" img5="" img6="" url="https://github.com/Ineed-io/web"
+              summary="A competitive internship tracker for users ongoning applications and statistices with a leaderboard that ranks users by the amount of internships applied." />
+            <Projectcard showGitHub={false} name="Spotify Analysis" img1="images/pythonicon.png" img2="images/pandasicon.png" img3="images/numpyicon.png" img4="images/matplotlibicon.png" img5="" img6="" url=""
               summary="A Spotify statistics that displays a user’s most listened to artists, genres, songs, era, which allows users to automatically give song recommendations." />
-            <Projectcard showGitHub={true} name="Portfolio Website" img1="images/reactjsicon.webp" img2="images/tsicon.png" img3="images/cssicon.png" img4="" url="https://github.com/dtnguyen0/portfolio"
+            <Projectcard showGitHub={true} name="Portfolio Website" img1="images/reactjsicon.webp" img2="images/tsicon.png" img3="images/cssicon.png" img4="" img5="" img6="" url="https://github.com/dtnguyen0/portfolio"
               summary="The website you're seeing right now! :)" />
           </div>
         </div>
