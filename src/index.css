@@ -1,3 +1,7 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*390px, 768px, Everything else*/
 
@@ -6,10 +10,8 @@
 }
 
 body {
-  background-color: rgb(21, 23, 26);
   font-size: calc(16px * var(--scale-factor));
   transform: scale(var(--scale-factor));
-  transform-origin: top left;
 }
 
 
@@ -22,10 +24,6 @@ html {
   scroll-padding-top: 100px;
 }
 
-body .info{
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
 /*
 Notes:

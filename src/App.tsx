@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <Profile />
-      <div className="info">
+      <div className="mx-24">
         <About />
         <Experiences />
         <Projects />
