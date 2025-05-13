@@ -14,7 +14,7 @@ function Header() {
       <div className="flex justify-between text-center m-auto pr-[100px] items-center">
         <a href="#" className="text-[rgb(28,186,248)] text-[1.7rem] font-bold transition duration-300 hover:text-[rgb(72,203,251)] hover:drop-shadow-[0_0_10px_rgba(64,226,255,0.1)]">David Nguyen</a>
           <div className="block md:hidden text-white text-2xl cursor-pointer" onClick={toggleMenu}>☰</div>
-          <ul className={`md:flex list-none p-0 flex-row ml-4${open ? "flex" : "hidden"}`}>
+          <ul className={`md:flex list-none p-0 flex-row ml-4 ${open ? "flex" : "hidden"}`}>
             <li className="text-[1.084rem] ml-[25px] mt-[6px]"><a className="text-[rgb(211,217,221)] font-bold transition duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]" href="#about">About</a></li>
             <li className="text-[1.084rem] ml-[25px] mt-[6px]"><a className="text-[rgb(211,217,221)] font-bold transition duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]" href="#experiences">Experiences</a></li>
             <li className="text-[1.084rem] ml-[25px] mt-[6px]"><a className="text-[rgb(211,217,221)] font-bold transition duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]" href="#projects">Projects</a></li>

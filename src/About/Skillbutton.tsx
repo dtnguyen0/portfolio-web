@@ -1,5 +1,4 @@
 import { useState } from "react"
-import "./skillbutton.css"
 import Tooltip from "./Tooltip.tsx"
 
 interface SkillProps {
@@ -16,8 +15,8 @@ function Skill(tool: SkillProps) {
   };
 
   return (
-    <div className="skills">
-      <div className="button-container">
+    <div className="flex flex-col items-center mb-[20px]">
+      <div className="flex justify-center flex-wrap gap-[20px] mb-[22px]">
         <button className={`skill-button ${skillOption === "languages" ? "selected" : ""}`} onClick={() => handleSelect("languages")}>Languages</button>
         <button className={`skill-button ${skillOption === "technologies" ? "selected" : ""}`} onClick={() => handleSelect("technologies")}>Technologies</button>
         <button className={`skill-button ${skillOption === "certifications" ? "selected" : ""}`} onClick={() => handleSelect("certifications")}>Certifications</button>

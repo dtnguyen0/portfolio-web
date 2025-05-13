@@ -1,4 +1,4 @@
-/* .course-card {
+.course-card {
     background-color: rgb(50, 54, 61);
     padding: 14px;
     border-radius: 16px;
@@ -38,4 +38,4 @@
     .course-card .course-name {
         font-size: 12px;
     }
-} */
+}

@@ -1,12 +1,10 @@
 import {FaLinkedin,FaGithub} from "react-icons/fa";
-import "./profile.css"
 
 function Profile() {
   const pic: string = "images/DavidProfHeadshot1.jpg"
 
   return(
-    <div className="flex flex-row justify-center items-center pt-0 pb-0 relative
-            bg-[url('/images/umichbackground.jpg')] bg-cover bg-center bg-no-repeat h-screen">
+    <div className="flex flex-row justify-center items-center pt-0 pb-0 relative bg-[url('/images/umichbackground.jpg')] bg-cover bg-center bg-no-repeat h-screen">
       <div className="text-white z-10 max-w-[600px] text-left">
         <p className="text-white text-[18px] my-[10px]">Hi, my name is</p>
         <h1 className="text-[rgb(28,186,248)] font-bold text-[50px] mb-[20px]">David Nguyen</h1>
