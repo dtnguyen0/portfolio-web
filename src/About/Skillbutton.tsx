@@ -1,6 +1,9 @@
-import { useState } from "react"
-import "./skillbutton.css"
-import Tooltip from "./Tooltip.tsx"
+import { useState } from "react";
+import Tooltip from "./Tooltip";
+
+const SkillIcon = ({ src, title }: { src: string; title: string }) => (
+  <Tooltip title={title}><img src={src} alt={title} className="w-[55px] h-[55px] object-cover transition-all duration-300 ease-in-out hover:-translate-y-[3px]" /></Tooltip>
+);
 
 interface SkillProps {
   l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string; l9: string;
@@ -11,53 +14,56 @@ interface SkillProps {
 function Skill(tool: SkillProps) {
   const [skillOption, setSkillOption] = useState<string>("languages");
 
-  const handleSelect = (skill: string) => {
-    setSkillOption(skill);
-  };
+  const languages = [
+    { title: "C++", src: tool.l1 },
+    { title: "C", src: tool.l9 },
+    { title: "Python", src: tool.l2 },
+    { title: "HTML", src: tool.l3 },
+    { title: "CSS", src: tool.l4 },
+    { title: "JavaScript", src: tool.l5 },
+    { title: "TypeScript", src: tool.l6 },
+    { title: "MATLAB", src: tool.l7 },
+    { title: "Verilog", src: tool.l8 },
+  ];
+
+  const technologies = [
+    { title: "React.js", src: tool.t1 },
+    { title: "Next.js", src: tool.t2 },
+    { title: "Tailwind CSS", src: tool.t3 },
+    { title: "PostgreSQL", src: tool.t4 },
+    { title: "Supabase", src: tool.t5 },
+    { title: "Pandas", src: tool.t6 },
+    { title: "NumPy", src: tool.t7 },
+    { title: "Matplotlib", src: tool.t8 },
+    { title: "Git", src: tool.t9 },
+    { title: "AWS", src: tool.t10 },
+    { title: "Azure", src: tool.t11 },
+  ];
+
+  const certifications = [
+    { title: "AWS Cloud Practitioner", src: tool.c1 },
+    { title: "Azure Fundamentals", src: tool.c2 },
+    { title: "ISC2 Certified in Cybersecurity", src: tool.c3 },
+  ];
+
+  const getButtonClass = (active: boolean) =>
+    `px-[20px] py-[10px] text-[20px] w-[230px] text-center rounded-[5px] border-2 cursor-pointer transition-all duration-300 ease-in-out shadow-[0_4px_6px_rgba(0,0,0,0.2)] ${active
+        ? "bg-[rgb(28,186,248)] text-white border-[rgb(28,186,248)] scale-[95%] shadow-[0_2px_4px_rgba(0,0,0,0.1)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)]"
+        : "text-[rgb(211,217,221)] bg-[rgb(50,54,61)] border-[rgb(50,54,61)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)] hover:text-white"}`;
 
   return (
-    <div className="skills">
-      <div className="button-container">
-        <button className={`skill-button ${skillOption === "languages" ? "selected" : ""}`} onClick={() => handleSelect("languages")}>Languages</button>
-        <button className={`skill-button ${skillOption === "technologies" ? "selected" : ""}`} onClick={() => handleSelect("technologies")}>Technologies</button>
-        <button className={`skill-button ${skillOption === "certifications" ? "selected" : ""}`} onClick={() => handleSelect("certifications")}>Certifications</button>
+    <div className="flex flex-col items-center mb-[20px]">
+      <div className="flex justify-center flex-wrap gap-[20px] mb-[22px]">
+        <button className={getButtonClass(skillOption === "languages")} onClick={() => setSkillOption("languages")}>Languages</button>
+        <button className={getButtonClass(skillOption === "technologies")} onClick={() => setSkillOption("technologies")}>Technologies</button>
+        <button className={getButtonClass(skillOption === "certifications")} onClick={() => setSkillOption("certifications")}>Certifications</button>
       </div>
-      <div className="skill-images">
-        {skillOption === "languages" && (
-          <>
-            <Tooltip title="C++"><img src={tool.l1} /></Tooltip>
-            <Tooltip title="C"><img src={tool.l9} /></Tooltip>
-            <Tooltip title="Python"><img src={tool.l2} /></Tooltip>
-            <Tooltip title="HTML"><img src={tool.l3}/></Tooltip>
-            <Tooltip title="CSS"><img src={tool.l4}/></Tooltip>
-            <Tooltip title="JavaScript"><img src={tool.l5}/></Tooltip>
-            <Tooltip title="TypeScript"><img src={tool.l6}/></Tooltip>
-            <Tooltip title="MATLAB"><img src={tool.l7}/></Tooltip>
-            <Tooltip title="Verilog"><img src={tool.l8}/></Tooltip>
-          </>
-        )}
-        {skillOption === "technologies" && (
-          <>
-            <Tooltip title="React.js"><img src={tool.t1}/></Tooltip>
-            <Tooltip title="Next.js"><img src={tool.t2}/></Tooltip>
-            <Tooltip title="Tailwind CSS"><img src={tool.t3}/></Tooltip>
-            <Tooltip title="PostgreSQL"><img src={tool.t4}/></Tooltip>
-            <Tooltip title="Supabase"><img src={tool.t5}/></Tooltip>
-            <Tooltip title="Pandas"><img src={tool.t6}/></Tooltip>
-            <Tooltip title="NumPy"><img src={tool.t7}/></Tooltip>
-            <Tooltip title="Matplotlib"><img src={tool.t8}/></Tooltip>
-            <Tooltip title="Git"><img src={tool.t9}/></Tooltip>
-            <Tooltip title="AWS"><img src={tool.t10}/></Tooltip>
-            <Tooltip title="Azure"><img src={tool.t11}/></Tooltip>
-          </>
-        )}
-        {skillOption === "certifications" && (
-          <>
-            <Tooltip title="AWS Cloud Practitioner"><img src={tool.c1}/></Tooltip>
-            <Tooltip title="Azure Fundamentals"><img src={tool.c2}/></Tooltip>
-            <Tooltip title="ISC2 Certified in Cybersecurity"><img src={tool.c3}/></Tooltip>
-          </>
-        )}
+      <div className="bg-[rgb(50,54,61)] p-[25px] rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.2)] flex flex-wrap justify-center gap-[15px]">
+        {(skillOption === "languages" ? languages
+          : skillOption === "technologies" ? technologies
+          : certifications).map(({ title, src }) => (
+          <SkillIcon key={title} title={title} src={src} />
+        ))}
       </div>
     </div>
   );

@@ -1,12 +1,11 @@
 import Workcard from './Workcard.tsx'
-import "./experiences.css"
 
 function Experiences() {
   return(
-    <div className="experiences" id="experiences">
+    <div className="bg-[rgb(32,35,40)] rounded-[10px] pt-[30px] px-[40px] pb-[30px] mt-[40px] mb-[40px] text-[rgb(211,217,221)] shadow-[0_5px_10px_rgba(0,0,0,0.4)]" id="experiences">
       <div className="experience-container">
-        <h2>Experiences</h2>
-          <div className="experiene-cards">
+        <h2 className="text-center text-white font-bold text-[40px] mb-[20px]">Experiences</h2>
+          <div className="flex flex-wrap justify-center gap-[20px] mt-[5%]">
             <Workcard pic="images/voidtechlogo.jpg" web="https://void-tech-um.github.io/index.html"
               name="VOID Tech" title="Software Developer" team="Backend Developer Team" duration="Janurary 2025 - Present"/>
             <Workcard pic="images/n2klogo.jpg" web="https://www.n2k.com/"
