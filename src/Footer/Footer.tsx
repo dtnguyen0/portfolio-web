@@ -13,7 +13,7 @@ function Footer() {
             <a className="text-[rgb(211,217,221)] transition duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]" href="https://github.com/dtnguyen0" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
             <a className="text-[rgb(211,217,221)] transition duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]" href="mailto:davidtn@umich.edu" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
           </div>
-          <div className="ml-[110px] pr-[110px] text-sm pt-[10px]">
+          <div className="ml-[110px] pr-[110px] text-sm pt-[20px]">
             <p>Copyright © {year} David Nguyen. All Rights Reserved</p>
             <p>Built with React.js, TypeScript, and Tailwind CSS. Deployed with Netlify</p>
           </div>
