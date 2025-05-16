@@ -9,7 +9,7 @@ function About(){
       <div className="text-center text-[26px] sm:text-[32px] mb-[20px] px-[20px] md:px-[50px]">
         <p className="text-[58%] leading-[1.6]">I am passionate programmer with interests in AI, Machine Learning, Computer Hardware, Software Development, and Cloud Computing, I want to turn ideas into reality with software solutions that are applicable in any situation.</p>
         <p className="text-[58%] leading-[1.6] mt-4">My experience spans from full-stack development, cloud computing, and data science technologies and languages such as C++, React.js, Python, and AWS.</p>
-        <p className="text-[58%] leading-[1.6] mt-4">Outside of everything technical, I've acquired many skills and a variety of interests. I've had the privilege of cutting hair for over 25 students—a skill I picked up as a way to connect with others. I also enjoy listening and discovering new music (with my main playlist has over 1,400 songs!), investing, staying active through workouts, and experiencing different cultures.</p>
+        <p className="text-[58%] leading-[1.6] mt-4">Outside of everything technical, I've acquired many skills and a variety of interests. I've had the privilege of cutting hair for over 35 students—a skill I picked up as a way to connect with others. I also enjoy listening and discovering new music (with my main playlist has over 1,500 songs!), investing, staying active through workouts, and experiencing different cultures.</p>
       </div>
       <div className="w-[90%] h-[2px] bg-[rgb(80,83,85)] my-[30px] mx-auto"></div>
       <div className="text-center mb-[40px]">
