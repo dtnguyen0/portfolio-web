@@ -2,7 +2,7 @@ import { useState } from "react";
 import Tooltip from "./Tooltip";
 
 const SkillIcon = ({ src, title }: { src: string; title: string }) => (
-  <Tooltip title={title}><img src={src} alt={title} className="w-[55px] h-[55px] object-cover transition-all duration-300 ease-in-out hover:-translate-y-[3px]" /></Tooltip>
+  <Tooltip title={title}><img src={src} alt={title} className="w-[45px] sm:w-[55px] h-[45px] sm:h-[55px] object-cover transition-all duration-300 ease-in-out hover:-translate-y-[3px]" /></Tooltip>
 );
 
 interface SkillProps {
@@ -47,8 +47,8 @@ function Skill(tool: SkillProps) {
   ];
 
   const getButtonClass = (active: boolean) =>
-    `px-[20px] py-[10px] text-[20px] w-[230px] text-center rounded-[5px] border-2 cursor-pointer transition-all duration-300 ease-in-out shadow-[0_4px_6px_rgba(0,0,0,0.2)] ${active
-        ? "bg-[rgb(28,186,248)] text-white border-[rgb(28,186,248)] scale-[95%] shadow-[0_2px_4px_rgba(0,0,0,0.1)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)]"
+    `px-[20px] py-[10px] text-[18px] sm:text-[20px] w-[190px] sm:w-[230px] text-center rounded-[5px] border-2 cursor-pointer transition-all duration-300 ease-in-out shadow-[0_4px_6px_rgba(0,0,0,0.2)] ${active
+        ? "bg-[rgb(1, 2, 2)] text-white bg-[rgb(28,186,248)] border-[rgb(28,186,248)] scale-[95%] shadow-[0_2px_4px_rgba(0,0,0,0.1)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)]"
         : "text-[rgb(211,217,221)] bg-[rgb(50,54,61)] border-[rgb(50,54,61)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)] hover:text-white"}`;
 
   return (
@@ -58,7 +58,7 @@ function Skill(tool: SkillProps) {
         <button className={getButtonClass(skillOption === "technologies")} onClick={() => setSkillOption("technologies")}>Technologies</button>
         <button className={getButtonClass(skillOption === "certifications")} onClick={() => setSkillOption("certifications")}>Certifications</button>
       </div>
-      <div className="bg-[rgb(50,54,61)] p-[25px] rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.2)] flex flex-wrap justify-center gap-[15px]">
+      <div className="bg-[rgb(50,54,61)] p-[25px] mx-[20px] sm:mx-base rounded-[16px] shadow-[0_4px_6px_rgba(0,0,0,0.2)] flex flex-wrap justify-center gap-[15px]">
         {(skillOption === "languages" ? languages
           : skillOption === "technologies" ? technologies
           : certifications).map(({ title, src }) => (
