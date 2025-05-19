@@ -48,7 +48,7 @@ function Skill(tool: SkillProps) {
 
   const getButtonClass = (active: boolean) =>
     `px-[20px] py-[10px] text-[18px] sm:text-[20px] w-[190px] sm:w-[230px] text-center rounded-[5px] border-2 cursor-pointer transition-all duration-300 ease-in-out shadow-[0_4px_6px_rgba(0,0,0,0.2)] ${active
-        ? "bg-[rgb(1, 2, 2)] text-white bg-[rgb(28,186,248)] border-[rgb(28,186,248)] scale-[95%] shadow-[0_2px_4px_rgba(0,0,0,0.1)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)]"
+        ? "bg-[rgb(1,2,2)] text-white bg-[rgb(28,186,248)] border-[rgb(28,186,248)] scale-[95%] shadow-[0_2px_4px_rgba(0,0,0,0.1)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)]"
         : "text-[rgb(211,217,221)] bg-[rgb(50,54,61)] border-[rgb(50,54,61)] hover:bg-[rgb(33,109,172)] hover:border-[rgb(33,109,172)] hover:text-white"}`;
 
   return (
