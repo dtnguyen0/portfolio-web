@@ -2,7 +2,7 @@ import Projectcard from './Projectcard.tsx'
 
 function Projects() {
   return(
-    <div className="bg-[rgb(32,35,40)] rounded-[10px] pt-[30px] px-[40px] pb-[30px] mt-[40px] mb-[40px] mx-[-30px] md:mx-0 text-[rgb(211,217,221)] shadow-[0_5px_10px_rgba(0,0,0,0.4)]" id="projects">
+    <div className="bg-[rgb(32,35,40)] rounded-[10px] pt-[30px] px-[40px] pb-[30px] mt-[40px] mb-[40px] mx-[-50px] sm:mx-[-30px] md:mx-0 text-[rgb(211,217,221)] shadow-[0_5px_10px_rgba(0,0,0,0.4)]" id="projects">
       <div>
         <h2 className="text-center text-white font-bold text-[32px] sm:text-[40px] mb-[20px]">Projects</h2>
           <div className="flex flex-wrap justify-center gap-[20px] mt-[5%]"> 
