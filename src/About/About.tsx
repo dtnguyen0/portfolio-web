@@ -32,7 +32,7 @@ function About(){
       <div className="text-center">
         <h3 className="text-white text-[26px] sm:text-[32px] font-bold mb-4">Skills</h3>
         <Skillbutton l1="images/cppicon.png" l2="images/pythonicon.png" l3="images/htmlicon.png" l4="images/cssicon.png" l5="images/jsicon.png" l6="images/tsicon.png" l7="images/matlabicon.png" l8="images/verilogicon.png" l9="images/cison.png"
-                      t1="images/reactjsicon.webp" t2="images/nextjsicon.png" t3="images/tailwindcssicon.png" t4="images/postgresqlicon.png" t5="images/supabaseicon.png" t6="images/pandasicon.png" t7="images/numpyicon.png" t8="images/matplotlibicon.png" t9="images/giticon.png" t10="images/awsicon.png" t11="images/azureicon.png"
+                      t1="images/reactjsicon.webp" t2="images/nextjsicon.png" t3="images/tailwindcssicon.png" t4="images/postgresqlicon.png" t5="images/supabaseicon.png" t6="images/pandasicon.png" t7="images/numpyicon.png" t8="images/matplotlibicon.png" t9="images/pytorchicon.png" t10="images/hficon.png" t11="images/giticon.png" t12="images/awsicon.png" t13="images/azureicon.png"
                       c1="images/awscpimg.png" c2="images/azurefunimg.png" c3="images/isc2ccimg.png"/>
       </div>
     </div>

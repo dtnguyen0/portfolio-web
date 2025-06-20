@@ -18,7 +18,7 @@ function Header() {
             <li><a href="#about" className="text-[rgb(211,217,221)] font-bold hover:text-white transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">About</a></li>
             <li><a href="#experiences" className="text-[rgb(211,217,221)] font-bold hover:text-white transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">Experiences</a></li>
             <li><a href="#projects" className="text-[rgb(211,217,221)] font-bold hover:text-white transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">Projects</a></li>
-            <li><a href="./images/David_Nguyen_Resume_Website (4).pdf" target="_blank" rel="noopener noreferrer" className="text-[rgb(28,186,248)] font-bold hover:text-[rgb(72,203,251)] transition duration-300 hover:drop-shadow-[0_0_10px_rgba(64,226,255,0.1)]">Resume</a></li>
+            <li><a href="./images/David_Nguyen_Resume_Website (6).pdf" target="_blank" rel="noopener noreferrer" className="text-[rgb(28,186,248)] font-bold hover:text-[rgb(72,203,251)] transition duration-300 hover:drop-shadow-[0_0_10px_rgba(64,226,255,0.1)]">Resume</a></li>
           </ul>
 
           {open && (
@@ -26,7 +26,7 @@ function Header() {
               <li><a href="#about" className="block text-[rgb(211,217,221)] font-bold px-4 py-2 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">About</a></li>
               <li><a href="#experiences" className="block text-[rgb(211,217,221)] font-bold px-4 py-2 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">Experiences</a></li>
               <li><a href="#projects" className="block text-[rgb(211,217,221)] font-bold px-4 py-2 hover:text-white hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">Projects</a></li>
-              <li><a href="./images/David_Nguyen_Resume_Website (4).pdf" target="_blank" rel="noopener noreferrer" className="block text-[rgb(28,186,248)] font-bold px-4 py-2 hover:text-[rgb(72,203,251)] hover:drop-shadow-[0_0_10px_rgba(64,226,255,0.1)]">Resume</a></li>
+              <li><a href="./images/David_Nguyen_Resume_Website (6).pdf" target="_blank" rel="noopener noreferrer" className="block text-[rgb(28,186,248)] font-bold px-4 py-2 hover:text-[rgb(72,203,251)] hover:drop-shadow-[0_0_10px_rgba(64,226,255,0.1)]">Resume</a></li>
             </ul>
           )}
 

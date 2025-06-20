@@ -7,7 +7,7 @@ const SkillIcon = ({ src, title }: { src: string; title: string }) => (
 
 interface SkillProps {
   l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string; l9: string;
-  t1: string; t2: string; t3: string; t4: string; t5: string; t6: string; t7: string; t8: string; t9: string; t10: string; t11: string;
+  t1: string; t2: string; t3: string; t4: string; t5: string; t6: string; t7: string; t8: string; t9: string; t10: string; t11: string; t12: string; t13: string;
   c1: string; c2: string; c3: string;
 }
 
@@ -35,9 +35,11 @@ function Skill(tool: SkillProps) {
     { title: "Pandas", src: tool.t6 },
     { title: "NumPy", src: tool.t7 },
     { title: "Matplotlib", src: tool.t8 },
-    { title: "Git", src: tool.t9 },
-    { title: "AWS", src: tool.t10 },
-    { title: "Azure", src: tool.t11 },
+    { title: "Pytorch", src: tool.t9 },
+    { title: "Hugging Face", src: tool.t10 },
+    { title: "Git", src: tool.t11 },
+    { title: "AWS", src: tool.t12 },
+    { title: "Azure", src: tool.t13 },
   ];
 
   const certifications = [
