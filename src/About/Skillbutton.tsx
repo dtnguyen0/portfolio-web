@@ -35,7 +35,7 @@ function Skill(tool: SkillProps) {
     { title: "Pandas", src: tool.t6 },
     { title: "NumPy", src: tool.t7 },
     { title: "Matplotlib", src: tool.t8 },
-    { title: "Pytorch", src: tool.t9 },
+    { title: "PyTorch", src: tool.t9 },
     { title: "Hugging Face", src: tool.t10 },
     { title: "Git", src: tool.t11 },
     { title: "AWS", src: tool.t12 },
