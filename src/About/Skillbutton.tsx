@@ -6,7 +6,7 @@ const SkillIcon = ({ src, title }: { src: string; title: string }) => (
 );
 
 interface SkillProps {
-  l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string; l9: string;
+  l1: string; l2: string; l3: string; l4: string; l5: string; l6: string; l7: string; l8: string; l9: string; l10: string;
   t1: string; t2: string; t3: string; t4: string; t5: string; t6: string; t7: string; t8: string; t9: string; t10: string; t11: string; t12: string; t13: string;
   c1: string; c2: string; c3: string;
 }
@@ -17,6 +17,7 @@ function Skill(tool: SkillProps) {
   const languages = [
     { title: "C++", src: tool.l1 },
     { title: "C", src: tool.l9 },
+    { title: "Assembly", src: tool.l10 },
     { title: "Python", src: tool.l2 },
     { title: "HTML", src: tool.l3 },
     { title: "CSS", src: tool.l4 },

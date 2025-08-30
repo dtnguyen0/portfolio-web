@@ -9,7 +9,7 @@ function Profile() {
         <p className="text-[14px] sm:text-[18px] my-[10px]">Hi, my name is</p>
         <h1 className="text-[40px] sm:text-[50px] text-[rgb(28,186,248)] font-bold mb-[20px]">David Nguyen</h1>
         <p className="text-sm sm:text-base">
-          I am studying Computer Science and Mathematics <br />
+          I am studying Computer Science<br />
           at the University of Michigan!
         </p>
         <p className="text-sm sm:text-base">
