@@ -17,12 +17,12 @@ function Skill(tool: SkillProps) {
   const languages = [
     { title: "C++", src: tool.l1 },
     { title: "C", src: tool.l9 },
-    { title: "Assembly", src: tool.l10 },
     { title: "Python", src: tool.l2 },
     { title: "HTML", src: tool.l3 },
     { title: "CSS", src: tool.l4 },
     { title: "JavaScript", src: tool.l5 },
     { title: "TypeScript", src: tool.l6 },
+    { title: "Assembly", src: tool.l10 },
     { title: "MATLAB", src: tool.l7 },
     { title: "Verilog", src: tool.l8 },
   ];

@@ -7,7 +7,7 @@ function About(){
     <div className="bg-[rgb(32,35,40)] rounded-[10px] pt-[20px] px-[20px] sm:px-[40px] pb-[30px] mt-[40px] mb-[40px] mx-[-50px] sm:mx-[-30px] md:mx-0 text-[rgb(211,217,221)] shadow-[0_5px_10px_rgba(0,0,0,0.4)]" id="about">
       <h2 className="text-center text-white font-bold text-[32px] sm:text-[40px] mb-[20px]">About</h2>
       <div className="text-center text-[26px] sm:text-[32px] mb-[20px] px-[20px] md:px-[50px]">
-        <p className="text-[58%] leading-[1.6]">I am passionate programmer with interests in AI, Machine Learning, Computer Hardware, Software Development, and Cloud Computing, I want to turn ideas into reality with software solutions that are applicable in any situation.</p>
+        <p className="text-[58%] leading-[1.6]">I am passionate programmer with interests in Systems Programming, Backend, Cloud Computing, and Computer Hardware. I want to turn ideas into reality with software solutions that are applicable in any situation.</p>
         <p className="text-[58%] leading-[1.6] mt-4">My experience spans from full-stack development, cloud computing, and data science technologies and languages such as C++, React.js, Python, and AWS.</p>
         <p className="text-[58%] leading-[1.6] mt-4">Outside of everything technical, I've acquired many skills and a variety of interests. I've had the privilege of cutting hair for over 35 students—a skill I picked up as a way to connect with others. I also enjoy listening and discovering new music (with my main playlist has over 1,500 songs!), investing, staying active through workouts, and experiencing different cultures.</p>
       </div>
@@ -18,6 +18,8 @@ function About(){
         <p className="text-[14px] sm:text-base"><i>Bachelor of Science in Engineering in Computer Science, Minor in Mathematics</i></p>
         <div className="flex flex-wrap justify-center gap-[20px] mt-[5%]">
           <Coursecard title="EECS 281" name="Data Structures and Algorithms" />
+          <Coursecard title="EECS 482/408" name="Operating Systems" />          
+          <Coursecard title="EECS 485" name="Web Systems" />
           <Coursecard title="EECS 370" name="Computer Organization" />
           <Coursecard title="EECS 280" name="Programming and Data Structures" />
           <Coursecard title="EECS 270" name="Logic Design" />
