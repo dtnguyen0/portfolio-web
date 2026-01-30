@@ -13,7 +13,7 @@ function Profile() {
           at the University of Michigan!
         </p>
         <p className="text-sm sm:text-base">
-          Feel free to reach out!{" "}<b className="text-[rgb(28,186,248)]"><u>davidtn@umich.com</u></b>
+          Feel free to reach out!{" "}<b className="text-[rgb(28,186,248)]"><u>davidt.nguyen05@gmail.com</u></b>
         </p>
         <div className="flex justify-center md:justify-start gap-2 mt-1 text-[24px] sm:text-[30px]">
           <a className="text-[rgb(211,217,221)] hover:text-white transition duration-300 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]"
